@@ -1,0 +1,8 @@
+def prime(n):
+   for I in range(2,n+1):
+        if i%==0:
+           Print ("not prime")
+              break
+          else:
+     Print ("prime")
+   print(17)
