@@ -1,0 +1,16 @@
+def count(listOfTuple): 
+count_map = {} 
+
+    for i in listOfTuple: 
+
+        count_map[i] = count_map.get(i, 0) + 1 
+
+    print(count_map)
+
+print( & quot Test Case 1: & quot ) 
+
+listOfTuple = [('a', 'e'), ('b', 'x'), ('b', 'x'), 
+
+               ('a', 'e'), ('b', 'x')] 
+count(listOfTuple)
+
