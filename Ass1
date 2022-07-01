@@ -1,16 +1,11 @@
-def count(listOfTuple): 
-count_map = {} 
-
-    for i in listOfTuple: 
-
-        count_map[i] = count_map.get(i, 0) + 1 
-
-    print(count_map)
-
-print( & quot Test Case 1: & quot ) 
-
-listOfTuple = [('a', 'e'), ('b', 'x'), ('b', 'x'), 
-
-               ('a', 'e'), ('b', 'x')] 
-count(listOfTuple)
-
+n=int(input ())
+l=list(map(int,input().split())
+m=[]
+x=[]
+Count=0
+for I in l:
+if I not in m:
+m.append(i)
+else:
+x.append(i)
+Print(len(x))
